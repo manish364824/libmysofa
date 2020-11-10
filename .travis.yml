@@ -6,6 +6,15 @@ matrix:
     - os: osx
       osx_image: xcode9.4
       
+      
+    - os: linux
+      arch: ppc64le
+      dist: bionic
+      sudo: required
+    - os: osx
+      arch: ppc64le
+      osx_image: xcode9.4
+      
 language: c
 
 before_install:
